@@ -1,0 +1,185 @@
+body
+{
+	background-color:#ffccff;
+	font-family: 'Oswald', sans-serif;
+	color:white;
+}
+
+#container
+{
+    width:100%;
+    position: relative;
+}
+
+#nav
+{
+	width:100%;
+}
+
+#header
+{
+	width:100%;
+	height: 40px;
+}
+#logo
+{
+	font-family: 'Amatic SC', cursive;
+	font-size:25px;
+	color:#cc0099;
+	float:left;
+}
+
+#menu
+{
+	text-align:center;
+	padding:50px;
+	margin-left: center;
+	margin-right: center;
+}
+ol
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	font-size: 22px;
+	color: white;
+	display: inline-block;
+}
+ol a
+{
+	color:white;
+	text-decoration: none;
+}
+
+ol > li
+{
+	width: 150px;
+	height:40px;
+	float:left;
+}
+ol > li:hover > a
+{
+	color: #cc0099;
+}
+
+ol > li > ul
+{
+	width: 100px;
+	height: 40px;
+	text-decoration:none;
+	display: none;
+}
+ol > li:hover > ul
+{
+	font-size: 16px;
+	display:block;
+}
+ol > li > ul > li
+{
+	color:#66004d;
+	position: relative;
+	text-align: left;
+	z-index: 100;
+}
+ol > li > ul > li:hover > a
+{
+	color:#66004d;
+}
+#socials
+{
+	width: 300px;
+	text-align: center;
+	float: right;
+	
+}
+
+#socialdivs
+{
+	width:1000px;
+	margin-left:70%;
+	margin-right:10%;
+	
+}
+.cakeimg
+{
+	width: 40px;
+	height: 40px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.cakeimg:hover a
+{ 
+	color:#cc0099;
+}
+.fb
+{
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+.fb:hover a
+{
+	color:#ffe6f9;
+}
+.instagram:hover a
+{
+	color:#ffe6f9;
+}
+.instagram
+{
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+
+#slider
+{
+	opacity: .9;
+	height:509px;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#gallery{
+	max-width: 600px;
+	max-height: 550px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+img{
+    width: 80%;
+    height: auto;
+    opacity: .2;
+}
+
+
+
+h2 {
+    position: absolute;
+    max-height: 700px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+h4 {
+    position: absolute;
+    max-height: 700px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+#photo
+{
+	
+}
+
+#description
+{
+    text-align: center;
+    position: relative;
+}
