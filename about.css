@@ -132,11 +132,30 @@ ol > li > ul > li:hover > a
 	float: left;
 }
 
+#slider
+{
+	opacity: .9;
+	height:509px;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#gallery{
+	max-width: 600px;
+	max-height: 550px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
 img{
     width: 80%;
     height: auto;
     opacity: .2;
 }
+
+
 
 h2 {
     position: absolute;
@@ -145,6 +164,18 @@ h2 {
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 20px;
+}
+h4 {
+    position: absolute;
+    max-height: 700px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+#photo
+{
+	
 }
 
 #description
