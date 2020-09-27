@@ -1,0 +1,140 @@
+.wrapper {
+  background: #000;
+  max-height: 600px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.slider {
+    position: relative;
+    display: block;
+
+  }
+
+
+.slider:focus {
+  outline: 0;
+}
+
+.slider figure {
+  position: absolute;
+    top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  -webkit-transition: opacity 1.2s;
+  transition: opacity 1.2s;
+}
+
+.slider figure:first-child {
+  position: relative;
+}
+
+.slider figure img {
+  display: block;
+}
+
+.slider .show {
+  z-index: 3;
+  opacity: 1;
+}
+
+.slider figcaption {
+  position: absolute;
+  font-family: sans-serif;
+  font-size: .8em;
+  bottom: .1em;
+  left: .2em;
+  padding: .5em;
+  color: rgb(255, 255, 255);
+  background: rgba(214, 121, 167, 0.979);
+  opacity: .8;
+  border-radius: 2px;
+}
+
+.slider figcaption a {
+  color: #fff;
+}
+
+.next, .prev {
+  color: #fff;
+  position: absolute;
+  background: #000;
+  background: rgba(0, 0, 0, .6);
+  top: 50%;
+  z-index: 4;
+  font-size: 2em;
+  margin-top: -1em;
+  opacity: .5;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.next:hover, .prev:hover, nav button:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.next {
+  right: 0;
+  padding: 10px 5px 15px 10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.prev {
+  left: 0;
+  padding: 10px 10px 15px 5px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+nav {
+  text-align: center;
+  line-height: 3px;
+  position: relative;
+}
+
+nav button {
+  background: rgba(214, 121, 167, 0.979);
+  color: #fff;
+  position: relative;
+  border: none;
+  outline: none;
+  bottom: .1em;
+  left: .2em;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul>li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul>li button {
+  width: 20px;
+  height: 20px;
+  line-height: 25px;
+  font-size: 32px;
+  opacity: 0.7;
+}
+
+
+
+nav ul>li button:before {
+  content: '\2022';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+nav ul>li button.selected {
+  opacity: 0.4;
+}
