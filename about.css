@@ -68,22 +68,35 @@ ol > li > ul
 	height: 40px;
 	text-decoration:none;
 	display: none;
+	background-color:#ffccff;
 }
+
 ol > li:hover > ul
 {
+
 	font-size: 16px;
 	display:block;
 }
 ol > li > ul > li
 {
+	list-style-type: none;
 	color:#66004d;
 	position: relative;
 	text-align: left;
 	z-index: 100;
+	background-color:#ffccff;
 }
 ol > li > ul > li:hover > a
 {
 	color:#66004d;
+	background-color:#ffccff;
+}
+ol  li  ul  li::before 
+{
+	color:#66004d;
+	background-color:#ffccff;
+	width: 4em;
+	content: "\2022";
 }
 #socials
 {
